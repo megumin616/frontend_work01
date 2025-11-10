@@ -15,8 +15,7 @@ const AuthContext = createContext();
 const useAuth = () => useContext(AuthContext);
 
 // API Configuration
-// const API_URL = "https://service-work01.onrender.com/api";
-const API_URL = "http://localhost:3001/api";
+const API_URL = "https://service-work01.onrender.com/api";
 
 // API Helper
 const api = {
